@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="카메라 설정"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:gravity="center_vertical"/>
+        <ImageButton
+            android:id="@+id/cis_refresh"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:padding="12dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_refresh_24"/>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/cis_cam_list"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_rectangle_round_strok_gray"
+        android:spinnerMode="dropdown" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="안면인식 데이터 복구"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:gravity="center_vertical"/>
+        <ImageButton
+            android:id="@+id/bio_down"
+            android:layout_width="80dp"
+            android:layout_height="64dp"
+            android:scaleType="fitCenter"
+            android:padding="12dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/baseline_cloud_download_24"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="신규설치 또는 안면인식 데이터가 삭제 됐을경우 서버에 저장된 데이터를 다운로드 하여 복구 합니다."
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:gravity="center_vertical"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_round_rect_red"
+        android:text="확인"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="100dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/logTextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="500"
+                android:gravity="top"
+                android:padding="10dp" />
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

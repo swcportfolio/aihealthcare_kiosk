@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="main_theme_color">#4766FF</color>
+
+    <color name="vred">#FF6C73</color>
+    <color name="vgreen">#76E49F</color>
+    <color name="vblue">#3CB6CE</color>
+    <color name="vyellow">#fbcb5c</color>
+</resources>

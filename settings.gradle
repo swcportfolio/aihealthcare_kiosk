@@ -1,0 +1,3 @@
+rootProject.name = "AIHealthCare"
+include ':app'
+include ':libusbcamera'
