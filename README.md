@@ -13,7 +13,8 @@
 - 통신: retrofit2
 - 내부 DB: sqlite
 
-![Uploading 동구라이프로그건강관리소.jpg…]()
 
 
 
+
+![동구라이프로그건강관리소](https://github.com/user-attachments/assets/f737f997-6dda-4542-80b3-86ce71118cf5)
